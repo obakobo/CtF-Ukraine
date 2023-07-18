@@ -1,0 +1,26 @@
+/*This is my css file, where I will put in all styling elements for my web page */
+
+h1,h2{color: blue;}
+
+
+* {
+    font: 15px Arial, sans-serif;
+  }
+
+
+a:link {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  /* Makes all visited links gray and with a line through */
+  a:visited {
+    color: gray;
+    text-decoration: line-through;
+  }
+  
+  /* Makes links purple and bold when hovered over */
+  a:hover {
+    color: purple;
+    font-weight: bold;
+  }
